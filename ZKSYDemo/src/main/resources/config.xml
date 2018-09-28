@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+<!-- es服务器的ip地址 -->
+<parameter key="es_ip">192.168.10.36</parameter>
+<!-- bootstrap.servers的ip及其端口 -->
+<parameter key="bootstrap.servers">192.168.10.63:9092,192.168.10.65:9092,192.168.10.66:9092</parameter>
+<!-- group.id -->
+<parameter key="group.id">objecteye6</parameter>
+<!-- enable.auto.commit -->
+<parameter key="enable.auto.commit">true</parameter>
+<!-- auto.offset.reset -->
+<parameter key="auto.offset.reset">earliest</parameter>
+<!-- auto.commit.interval.ms -->
+<parameter key="auto.commit.interval.ms">1000</parameter>
+<!-- key.deserializer -->
+<parameter key="key.deserializer">org.apache.kafka.common.serialization.StringDeserializer</parameter>
+<!-- value.deserializer -->
+<parameter key="value.deserializer">org.apache.kafka.common.serialization.StringDeserializer</parameter>
+
+<!-- 索引的名称 -->
+<parameter key="indexName">object003</parameter>
+<!-- type -->
+<parameter key="typeName">article</parameter>
+<!-- cluster.name -->
+<parameter key="cluster.name">objecteye</parameter>
+<!-- topicName -->
+<parameter key="topicName">object</parameter>
+<!-- 配置文件的路径configUrl -->
+<parameter key="configUrl">/root/config.xml</parameter>
+</parameters>

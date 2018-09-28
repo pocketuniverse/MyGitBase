@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+<!-- es服务器的ip地址 -->
+<parameter key="es_ip">192.168.10.36</parameter>
+<!-- 索引的名称 -->
+<parameter key="indexName">object003</parameter>
+<!-- type -->
+<parameter key="typeName">article</parameter>
+<!-- cluster.name -->
+<parameter key="cluster.name">objecteye</parameter>
+
+</parameters>
